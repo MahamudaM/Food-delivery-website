@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Hader from './SharePage/Hader/Hader';
+import Footer from './SharePage/Footer/Footer';
+import HomeBanars from './Pages/Home/HomeBanars/HomeBanars';
+import CreateAccount from './Pages/Home/CreateAccount/CreateAccount';
+import ExploreVarieties from './Pages/Home/ExploreVarieties/ExploreVarieties';
+import DownloadBanar from './Pages/Home/DownloadBanar/DownloadBanar';
+import Checkout from './Pages/Home/Checkout/Checkout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+     <Hader></Hader>
+     <HomeBanars></HomeBanars>
+     <CreateAccount></CreateAccount>
+     <ExploreVarieties></ExploreVarieties>
+     <Checkout></Checkout>
+     <DownloadBanar></DownloadBanar>
+     <Footer></Footer>
     </div>
   );
 }
