@@ -11,7 +11,7 @@ const Hader = () => {
     ]
     return (
         <div>
-            <nav className='px-5 shadow md:flex md:items-center md:justify-between'>
+            <nav className='md:pl-[5.62rem] md:pr-[2.5rem] pt-[1.63rem] pb-[1.75rem] shadow md:flex md:items-center md:justify-between'>
                  {/* logo */}
 <div className='flex justify-between items-center '>
     <span className='cursor-pointer'>
@@ -29,8 +29,7 @@ const Hader = () => {
     </span>
     }
    </div>
-  {/* md:items-center z-[-1] md:z-auto bg-white left-0 md:pl-0 pl-7 md:py-0 py-4 md:opacity-100 
-opacity-0 */}
+  
 </div>
 <ul className={`md:flex md:w-auto md:static justify-center absolute w-full  transition-all ease-in duration-400 ${open?'top-16' : 'top-[-400px]'}`}>
     {

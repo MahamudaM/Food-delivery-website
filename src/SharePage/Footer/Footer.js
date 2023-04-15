@@ -6,14 +6,15 @@ import instagram from '../../Assets/instagram.svg'
 const Footer = () => {
     return (
         <div>
-            <div className='flex flex-row justify-between items-center lg:mx-[7.18rem] mb-[3.31rem]'>
-<img className='cursor-pointer' src={logo} alt="" />
-<div className='flex flex-row gap-6 '>
+            {/* lg:flex-row md:flex-col justify-center */}
+            <div className='md:flex  md:justify-between text-center items-center mt-[2.37rem] lg:mx-[7.18rem] mb-[3.31rem]'>
+<img className='cursor-pointer hidden lg:block' src={logo} alt="" />
+<div className='justify-center items-center flex md:flex-row  gap-6 '>
 <img className='cursor-pointer' src={twitter} alt="" />
 <img className='cursor-pointer' src={facebook} alt="" />
 <img className='cursor-pointer' src={instagram} alt="" />  
 </div>
-<span className='text-xs font-bold text[#5C5C5C] tracking-[0.1px]'>Copywright 2020 Bella Onojie.com</span>
+<span className='text-xs font-[Roboto] font-bold text[#5C5C5C] tracking-[0.1px]'>Copywright 2020 Bella Onojie.com</span>
             </div>
         </div>
     );
